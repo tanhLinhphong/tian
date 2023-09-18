@@ -24,7 +24,7 @@ int main()
 		printf("\n\n thuc hien tinh cong:\n");
 		printf("so hang a = %d\n",a);
 		printf("so hang b = %d\n",b);
-		return a-b;
+		return a+b;
 	}
 	
 
