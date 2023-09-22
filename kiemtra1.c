@@ -23,16 +23,16 @@ int  menu ();
  	switch (check)
  	{
  		case 1:
- 			printf("tong 2 so la : %d",sum);
+ 			printf("1.tong 2 so la : %d",sum);
  			break;
  		case 2:
- 			printf("hieu 2 so la : %d",sub);
+ 			printf("2.hieu 2 so la : %d",sub);
  			break;
  		case 3:
- 			printf("tich 2 so la : %d",mtp);
+ 			printf("3.tich 2 so la : %d",mtp);
  			break;
  		case 4:
- 			printf("thuong 2 so la : %f",div);
+ 			printf("4.thuong 2 so la : %f",div);
  			break;
  		default :
  		printf("Loi");
@@ -44,6 +44,7 @@ int  menu ();
  }
  int tong(int a, int b)
  {
+	 printf("\n\n phep tinh cong :\n")
  	int c;
  	return c=a+b;
  }
